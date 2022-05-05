@@ -1,9 +1,9 @@
 const cloudinary = require('cloudinary')
 
 cloudinary.config({
-    cloud_name: 'catercode',
-    api_key: '864342247813819',
-    api_secret: '9TZus_idyuc-u3GrRtBxjLItcsI'
+    cloud_name: '',
+    api_key: '',
+    api_secret: ''
 })
 
 exports.uploads = (file) => {
